@@ -14,13 +14,13 @@
 		4C75262B181640CB000AE668 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C75262A181640CB000AE668 /* main.m */; };
 		4C75262F181640CB000AE668 /* ETAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C75262E181640CB000AE668 /* ETAppDelegate.m */; };
 		4C752632181640CB000AE668 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C752630181640CB000AE668 /* Main.storyboard */; };
-		4C752635181640CB000AE668 /* ETViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C752634181640CB000AE668 /* ETViewController.m */; };
 		4C752637181640CB000AE668 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C752636181640CB000AE668 /* Images.xcassets */; };
 		4C75263E181640CB000AE668 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C75263D181640CB000AE668 /* XCTest.framework */; };
 		4C75263F181640CB000AE668 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C75261E181640CB000AE668 /* Foundation.framework */; };
 		4C752640181640CB000AE668 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C752622181640CB000AE668 /* UIKit.framework */; };
 		4C752648181640CB000AE668 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C752646181640CB000AE668 /* InfoPlist.strings */; };
 		4C75264A181640CB000AE668 /* UITableViewControllerChallengeSolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C752649181640CB000AE668 /* UITableViewControllerChallengeSolutionTests.m */; };
+		4C75265518164378000AE668 /* ETViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C75265418164378000AE668 /* ETViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		4C75262D181640CB000AE668 /* ETAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETAppDelegate.h; sourceTree = "<group>"; };
 		4C75262E181640CB000AE668 /* ETAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETAppDelegate.m; sourceTree = "<group>"; };
 		4C752631181640CB000AE668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4C752633181640CB000AE668 /* ETViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETViewController.h; sourceTree = "<group>"; };
-		4C752634181640CB000AE668 /* ETViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETViewController.m; sourceTree = "<group>"; };
 		4C752636181640CB000AE668 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4C75263C181640CB000AE668 /* UITableViewControllerChallengeSolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableViewControllerChallengeSolutionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C75263D181640CB000AE668 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4C752645181640CB000AE668 /* UITableViewControllerChallengeSolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewControllerChallengeSolutionTests-Info.plist"; sourceTree = "<group>"; };
 		4C752647181640CB000AE668 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4C752649181640CB000AE668 /* UITableViewControllerChallengeSolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewControllerChallengeSolutionTests.m; sourceTree = "<group>"; };
+		4C75265318164378000AE668 /* ETViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETViewController.h; sourceTree = "<group>"; };
+		4C75265418164378000AE668 /* ETViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				4C75262D181640CB000AE668 /* ETAppDelegate.h */,
 				4C75262E181640CB000AE668 /* ETAppDelegate.m */,
 				4C752630181640CB000AE668 /* Main.storyboard */,
-				4C752633181640CB000AE668 /* ETViewController.h */,
-				4C752634181640CB000AE668 /* ETViewController.m */,
+				4C75265318164378000AE668 /* ETViewController.h */,
+				4C75265418164378000AE668 /* ETViewController.m */,
 				4C752636181640CB000AE668 /* Images.xcassets */,
 				4C752625181640CB000AE668 /* Supporting Files */,
 			);
@@ -250,7 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C752635181640CB000AE668 /* ETViewController.m in Sources */,
+				4C75265518164378000AE668 /* ETViewController.m in Sources */,
 				4C75262B181640CB000AE668 /* main.m in Sources */,
 				4C75262F181640CB000AE668 /* ETAppDelegate.m in Sources */,
 			);
@@ -461,6 +461,7 @@
 				4C75264F181640CB000AE668 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C752650181640CB000AE668 /* Build configuration list for PBXNativeTarget "UITableViewControllerChallengeSolutionTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +470,7 @@
 				4C752652181640CB000AE668 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
